@@ -1,0 +1,111 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #245076;
+    margin: 0;
+}
+header{
+    display: block;
+    margin: 0 50px;
+}
+.header-search{
+    text-align: center;
+}
+header .buscador{
+    display: inline-block;
+    background-color: gray;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+.header-top p{
+    color: white;
+}
+.header-search a{
+    color: yellow;
+}
+nav{
+    display: flex;
+    background-color: #457dad;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+ul{
+    margin: 15px auto;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+/* MAIN */
+main{
+    display: inline-block;
+    text-align: center;
+}
+main ul{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+li{
+    color: yellow;
+}
+main ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.text-front{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+main p{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+.special-text p{
+    display: block;
+    color: yellow;
+}
+article{
+    background-color: white;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 45%;
+}
+.color-bar{
+    height: 10px;
+    background-color: #457dad;
+    margin: 10px;
+}
+.card a{
+    color: #91badf;
+    font-size: 16px;    
+}
+footer{
+    text-align: center;
+    margin: 15px;
+}
+footer a{
+    padding: 10px;
+    margin: 10px;
+    color: #6498c7;
+    text-decoration: none;
+}
+footer p{
+    font-size: 12px;
+}
